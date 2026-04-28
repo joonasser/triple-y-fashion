@@ -12,7 +12,7 @@ figure{margin:0;}
 nav{display:flex;align-items:center;}
 nav div a{color: white;
 padding: 0 10px; font-size: 20px;
-text-decoration:none;margin-right:5px; } 
+text-decoration:none;margin-right:5px;cursor: pointer; } 
 .signin button{padding:7px 15px;font-size: 16px;
 background-color: rgb(190, 9, 9);
 color:white;border:none;
