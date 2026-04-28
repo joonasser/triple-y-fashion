@@ -78,7 +78,7 @@ border-radius: 15px;}
  footer p {text-align: center;}
 .li {margin-top:60px;text-align:center;margin-right: 280px;}
 ul{list-style-position:inside;}
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .section1 {
     flex-direction: column;
     padding: 20px;
