@@ -72,4 +72,7 @@ border:1px solid rgba(255,255,255,0.2);}
 .products-container {display:flex;gap:20px;padding:20px 20px;background-color:rgb(1, 87, 116);
     margin:5px;border-radius:30px;width:auto;align-items:center; justify-content:center;flex-wrap:wrap;}
 section h1{padding:5px 20px;background-color: #061150;width:fit-content;border-radius:25px;
-color: #d4f51a;}  
+color: #d4f51a;} 
+ footer{padding:5px 20px;align-items:center;background-color: #061150;color: white;
+border-radius: 15px;}
+ footer p {text-align: center;}
