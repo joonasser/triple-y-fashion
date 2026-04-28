@@ -78,3 +78,28 @@ border-radius: 15px;}
  footer p {text-align: center;}
 .li {margin-top:60px;text-align:center;margin-right: 280px;}
 ul{list-style-position:inside;}
+@media (max-width: 768px) {
+  .section1 {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+  }
+
+  .section1 img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .section1 div {
+    width: 100%;
+    margin: 0;
+  }
+
+  h3 {
+    margin-top: 20px !important;
+    font-size: 22px;
+  }
+}
