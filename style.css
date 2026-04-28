@@ -9,7 +9,7 @@ padding: 0px 40px;
 border-radius: 10px;
 flex-wrap:wrap;}
 figure{margin:0;}
-nav{display:flex;align-items:center;}
+nav{display:flex;align-items:center;cursor:pointer;}
 nav div a{color: white;
 padding: 0 10px; font-size: 20px;
 text-decoration:none;margin-right:5px; } 
