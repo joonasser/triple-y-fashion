@@ -111,3 +111,53 @@ ul{list-style-position:inside;}
     font-size: 22px;
   }
 }
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f8f8f8;
+    }
+
+    .about {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 10%;
+      gap: 40px;
+      min-height: 100vh;
+      background-color: white;
+    }
+    .about-text {
+      max-width: 500px;
+    }
+
+    .about-text h1 {
+      font-size: 40px;
+      color: #222;
+      margin-bottom: 20px;
+    }
+
+    .about-text p {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.7;
+      margin-bottom: 25px;
+    }
+
+    .about-text button {
+      padding: 12px 25px;
+      border: none;
+      background-color:#0a192f;
+      color: white;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .about-text button:hover {
+      background-color: #444;
+    }
