@@ -9,6 +9,7 @@ padding: 0px 50px;
 border-radius:0;
 flex-wrap:wrap;}
 body{background-color: #ffffff;
+    transition:background-size 0.5 ease;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -61,8 +62,8 @@ h3 {font-family:Arial, Helvetica, sans-serif;text-align: center;letter-spacing: 
     background-color: #0a192f;color: aliceblue;
     border: none;cursor: pointer;}
 .logo-img {display: block;margin: 60px auto 1px auto;}
-.products-container img {width:150px;height:auto; border-radius: 30px 30px 0 0;}
-.item {align-items: center;border-radius: 30px;width:150px;cursor:pointer;
+.products-container img {width:300px;height:auto; border-radius: 30px 30px 0 0;}
+.item {align-items: center;border-radius: 30px;width:300px;cursor:pointer;
     background-color: rgb(219, 218, 218);
 transition:all 0.4s cubic-bezier(0.165,0.84,0.44,1);
 position:relative;overflow:hidden;}
@@ -75,7 +76,7 @@ border:1px solid rgba(255,255,255,0.2);}
     .itemname h4 {margin:5px;}
     .itemname p {margin:5px;}
     .itemname {padding:10px 15px;}
-.products-container {display:flex;gap:25px;padding:2vw;background-color:#0a192f;
+.products-container {display:flex;gap:15px;padding:1vw;background-color:#0a192f;
     margin:5px;border-radius:30px;width:auto;align-items:center; justify-content:space-around;flex-wrap:wrap;
 border:3px solid #cfa059;}
 .products-section h1{padding:5px 20px;background-color:#0a192f;width:fit-content;border-radius:25px;
