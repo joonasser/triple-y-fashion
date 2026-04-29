@@ -137,7 +137,7 @@ ul{list-style-position:inside;}
 
     .about-text h1 {
       font-size: 40px;
-      color: #222;
+      color: #0a192f;
       margin-bottom: 20px;
     }
 
@@ -156,8 +156,4 @@ ul{list-style-position:inside;}
       font-size: 16px;
       border-radius: 5px;
       cursor: pointer;
-    }
-
-    .about-text button:hover {
-      background-color: #444;
     }
